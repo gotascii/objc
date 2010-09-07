@@ -1,0 +1,93 @@
+Thello
+v7
+r0
+t295300961.170490
+cCheck dependencies
+cProcessPCH /var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch.gch hello_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.o /Users/jmarney/Sites/objc/hello/hello.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jmarney/Sites/objc/hello/build/Debug/hello normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BE8137D00000000000000EE
+t1273500541
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B447F4E00000000000013E6
+t1262780238
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B25D6F80000000000B37440
+t1260771064
+s11760704
+
+N/Users/jmarney/Sites/objc/hello/build/Debug/hello
+t1273608161
+s10520
+
+N/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.LinkFileList
+c000000004BE8C1940000000000000062
+t1273545108
+s98
+
+N/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.o
+t1273608161
+s11844
+
+N/Users/jmarney/Sites/objc/hello/hello.m
+c000000004BE9B7EE000000000000039A
+t1273608174
+s922
+i<Foundation/Foundation.h>
+
+N/Users/jmarney/Sites/objc/hello/hello_Prefix.pch
+c000000004BE8C1120000000000000098
+t1273544978
+s152
+i<Foundation/Foundation.h>
+
+N/var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch.gch
+t1273545111
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295300960#295300960#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.o /Users/jmarney/Sites/objc/hello/hello.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295300960.800913
+e295300961.149211
+r1
+xCompileC
+xbuild/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.o
+x/Users/jmarney/Sites/objc/hello/hello.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/jmarney/Sites/objc/hello/hello.m295300960#295300961#0(0"0(0#0#39"/Users/jmarney/Sites/objc/hello/hello.m4300911832#1335"    cd /Users/jmarney/Sites/objc/hello    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-generated-files.hmap -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-own-target-headers.hmap -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-all-target-headers.hmap -iquote /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-project-headers.hmap -F/Users/jmarney/Sites/objc/hello/build/Debug -I/Users/jmarney/Sites/objc/hello/build/Debug/include -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/DerivedSources/x86_64 -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/DerivedSources -include /var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch -c /Users/jmarney/Sites/objc/hello/hello.m -o /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.o0#
+
+CLd /Users/jmarney/Sites/objc/hello/build/Debug/hello normal x86_64
+s295300961.149589
+e295300961.170436
+r1
+xLd
+x/Users/jmarney/Sites/objc/hello/build/Debug/hello
+xnormal
+xx86_64
+lSLF07#2@54"Link /Users/jmarney/Sites/objc/hello/build/Debug/hello295300961#295300961#0(0"0(0#0#0"4300911832#477"    cd /Users/jmarney/Sites/objc/hello    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jmarney/Sites/objc/hello/build/Debug -F/Users/jmarney/Sites/objc/hello/build/Debug -filelist /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/Objects-normal/x86_64/hello.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/jmarney/Sites/objc/hello/build/Debug/hello0#
+
+CProcessPCH /var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch.gch hello_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295237908.529067
+e295237911.740014
+r1
+xProcessPCH
+x/var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch.gch
+xhello_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile hello_Prefix.pch295237908#295237911#0(0"0(0#0#48"/Users/jmarney/Sites/objc/hello/hello_Prefix.pch7307142568295621632#1248"    cd /Users/jmarney/Sites/objc/hello    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-generated-files.hmap -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-own-target-headers.hmap -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-all-target-headers.hmap -iquote /Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/hello-project-headers.hmap -F/Users/jmarney/Sites/objc/hello/build/Debug -I/Users/jmarney/Sites/objc/hello/build/Debug/include -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/DerivedSources/x86_64 -I/Users/jmarney/Sites/objc/hello/build/hello.build/Debug/hello.build/DerivedSources -c /Users/jmarney/Sites/objc/hello/hello_Prefix.pch -o /var/folders/sJ/sJiOqVH1Hl0c0IBhVBblxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hello_Prefix-fqxbjuuwiyjsmkbxrqwcyktbsnnt/hello_Prefix.pch.gch0#
+

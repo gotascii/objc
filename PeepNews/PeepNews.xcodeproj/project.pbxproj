@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* PeepNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* PeepNews.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* PeepNews.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* PeepNews.1 */; };
+		DE261ECA1199F22F000E055B /* TFProductTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE261EC91199F22E000E055B /* TFProductTest.m */; };
+		DE261ED41199FCCF000E055B /* TFProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DE261ED31199FCCF000E055B /* TFProduct.m */; };
+		DE261ED51199FCF0000E055B /* TFProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DE261ED31199FCCF000E055B /* TFProduct.m */; };
+		DEA0D4BB11988BCA00C95B7C /* SyntaxTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA0D4BA11988BCA00C95B7C /* SyntaxTest.m */; };
+		DEA0D4E611988C2C00C95B7C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA0D4CF11988C0C00C95B7C /* SenTestingKit.framework */; };
+		DEF69BAF119B5201009443E9 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B8D119B5201009443E9 /* NSCharacterSet_Extensions.m */; };
+		DEF69BB0119B5201009443E9 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B8F119B5201009443E9 /* CDataScanner_Extensions.m */; };
+		DEF69BB1119B5201009443E9 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B91119B5201009443E9 /* NSDictionary_JSONExtensions.m */; };
+		DEF69BB5119B5201009443E9 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9A119B5201009443E9 /* CJSONScanner.m */; };
+		DEF69BB6119B5201009443E9 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9C119B5201009443E9 /* CJSONSerializer.m */; };
+		DEF69BB7119B5201009443E9 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9E119B5201009443E9 /* CJSONDeserializer.m */; };
+		DEF69BB8119B5201009443E9 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BA0119B5201009443E9 /* CJSONDataSerializer.m */; };
+		DEF69BB9119B5201009443E9 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BA2119B5201009443E9 /* CSerializedJSONData.m */; };
+		DEF69BBF119B5201009443E9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BAE119B5201009443E9 /* CDataScanner.m */; };
+		DEF69BC0119B5201009443E9 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B8D119B5201009443E9 /* NSCharacterSet_Extensions.m */; };
+		DEF69BC1119B5201009443E9 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B8F119B5201009443E9 /* CDataScanner_Extensions.m */; };
+		DEF69BC2119B5201009443E9 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B91119B5201009443E9 /* NSDictionary_JSONExtensions.m */; };
+		DEF69BC6119B5201009443E9 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9A119B5201009443E9 /* CJSONScanner.m */; };
+		DEF69BC7119B5201009443E9 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9C119B5201009443E9 /* CJSONSerializer.m */; };
+		DEF69BC8119B5201009443E9 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69B9E119B5201009443E9 /* CJSONDeserializer.m */; };
+		DEF69BC9119B5201009443E9 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BA0119B5201009443E9 /* CJSONDataSerializer.m */; };
+		DEF69BCA119B5201009443E9 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BA2119B5201009443E9 /* CSerializedJSONData.m */; };
+		DEF69BD0119B5201009443E9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BAE119B5201009443E9 /* CDataScanner.m */; };
+		DEF69BFF119B52EF009443E9 /* TFProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BFE119B52EF009443E9 /* TFProductList.m */; };
+		DEF69C00119B52EF009443E9 /* TFProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69BFE119B52EF009443E9 /* TFProductList.m */; };
+		DEF69C02119B5340009443E9 /* TFProductListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF69C01119B5340009443E9 /* TFProductListTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* PeepNews.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* PeepNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeepNews.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* PeepNews_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeepNews_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* PeepNews */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PeepNews; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* PeepNews.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PeepNews.1; sourceTree = "<group>"; };
+		DE261EC91199F22E000E055B /* TFProductTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFProductTest.m; sourceTree = "<group>"; };
+		DE261ED21199FCCF000E055B /* TFProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFProduct.h; sourceTree = "<group>"; };
+		DE261ED31199FCCF000E055B /* TFProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFProduct.m; sourceTree = "<group>"; };
+		DEA0D49711988A6E00C95B7C /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA0D49811988A6E00C95B7C /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		DEA0D4BA11988BCA00C95B7C /* SyntaxTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntaxTest.m; sourceTree = "<group>"; };
+		DEA0D4CF11988C0C00C95B7C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DEF69B8C119B5201009443E9 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		DEF69B8D119B5201009443E9 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		DEF69B8E119B5201009443E9 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		DEF69B8F119B5201009443E9 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		DEF69B90119B5201009443E9 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		DEF69B91119B5201009443E9 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		DEF69B99119B5201009443E9 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		DEF69B9A119B5201009443E9 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		DEF69B9B119B5201009443E9 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		DEF69B9C119B5201009443E9 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		DEF69B9D119B5201009443E9 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		DEF69B9E119B5201009443E9 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		DEF69B9F119B5201009443E9 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		DEF69BA0119B5201009443E9 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		DEF69BA1119B5201009443E9 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		DEF69BA2119B5201009443E9 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		DEF69BAD119B5201009443E9 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		DEF69BAE119B5201009443E9 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		DEF69BFD119B52EF009443E9 /* TFProductList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFProductList.h; sourceTree = "<group>"; };
+		DEF69BFE119B52EF009443E9 /* TFProductList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFProductList.m; sourceTree = "<group>"; };
+		DEF69C01119B5340009443E9 /* TFProductListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFProductListTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA0D49411988A6E00C95B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA0D4E611988C2C00C95B7C /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* PeepNews */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0D4B711988B8C00C95B7C /* Test */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				DEA0D49811988A6E00C95B7C /* Test-Info.plist */,
+			);
+			name = PeepNews;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEF69B8A119B51D9009443E9 /* TouchJSON */,
+				32A70AAB03705E1F00C91783 /* PeepNews_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* PeepNews.m */,
+				DE261ED21199FCCF000E055B /* TFProduct.h */,
+				DE261ED31199FCCF000E055B /* TFProduct.m */,
+				DEF69BFD119B52EF009443E9 /* TFProductList.h */,
+				DEF69BFE119B52EF009443E9 /* TFProductList.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0D4CF11988C0C00C95B7C /* SenTestingKit.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* PeepNews */,
+				DEA0D49711988A6E00C95B7C /* Test.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* PeepNews.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		DEA0D4B711988B8C00C95B7C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DEA0D4BA11988BCA00C95B7C /* SyntaxTest.m */,
+				DE261EC91199F22E000E055B /* TFProductTest.m */,
+				DEF69C01119B5340009443E9 /* TFProductListTest.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		DEF69B8A119B51D9009443E9 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				DEF69B8B119B5201009443E9 /* Extensions */,
+				DEF69B98119B5201009443E9 /* JSON */,
+				DEF69BAD119B5201009443E9 /* CDataScanner.h */,
+				DEF69BAE119B5201009443E9 /* CDataScanner.m */,
+			);
+			name = TouchJSON;
+			sourceTree = "<group>";
+		};
+		DEF69B8B119B5201009443E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEF69B8C119B5201009443E9 /* NSCharacterSet_Extensions.h */,
+				DEF69B8D119B5201009443E9 /* NSCharacterSet_Extensions.m */,
+				DEF69B8E119B5201009443E9 /* CDataScanner_Extensions.h */,
+				DEF69B8F119B5201009443E9 /* CDataScanner_Extensions.m */,
+				DEF69B90119B5201009443E9 /* NSDictionary_JSONExtensions.h */,
+				DEF69B91119B5201009443E9 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DEF69B98119B5201009443E9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				DEF69B99119B5201009443E9 /* CJSONScanner.h */,
+				DEF69B9A119B5201009443E9 /* CJSONScanner.m */,
+				DEF69B9B119B5201009443E9 /* CJSONSerializer.h */,
+				DEF69B9C119B5201009443E9 /* CJSONSerializer.m */,
+				DEF69B9D119B5201009443E9 /* CJSONDeserializer.h */,
+				DEF69B9E119B5201009443E9 /* CJSONDeserializer.m */,
+				DEF69B9F119B5201009443E9 /* CJSONDataSerializer.h */,
+				DEF69BA0119B5201009443E9 /* CJSONDataSerializer.m */,
+				DEF69BA1119B5201009443E9 /* CSerializedJSONData.h */,
+				DEF69BA2119B5201009443E9 /* CSerializedJSONData.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* PeepNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PeepNews" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeepNews;
+			productInstallPath = "$(HOME)/bin";
+			productName = PeepNews;
+			productReference = 8DD76FA10486AA7600D96B5E /* PeepNews */;
+			productType = "com.apple.product-type.tool";
+		};
+		DEA0D49611988A6E00C95B7C /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA0D49B11988A6E00C95B7C /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				DEA0D49211988A6E00C95B7C /* Resources */,
+				DEA0D49311988A6E00C95B7C /* Sources */,
+				DEA0D49411988A6E00C95B7C /* Frameworks */,
+				DEA0D49511988A6E00C95B7C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = DEA0D49711988A6E00C95B7C /* Test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PeepNews" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* PeepNews */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* PeepNews */,
+				DEA0D49611988A6E00C95B7C /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA0D49211988A6E00C95B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEA0D49511988A6E00C95B7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* PeepNews.m in Sources */,
+				DE261ED41199FCCF000E055B /* TFProduct.m in Sources */,
+				DEF69BAF119B5201009443E9 /* NSCharacterSet_Extensions.m in Sources */,
+				DEF69BB0119B5201009443E9 /* CDataScanner_Extensions.m in Sources */,
+				DEF69BB1119B5201009443E9 /* NSDictionary_JSONExtensions.m in Sources */,
+				DEF69BB5119B5201009443E9 /* CJSONScanner.m in Sources */,
+				DEF69BB6119B5201009443E9 /* CJSONSerializer.m in Sources */,
+				DEF69BB7119B5201009443E9 /* CJSONDeserializer.m in Sources */,
+				DEF69BB8119B5201009443E9 /* CJSONDataSerializer.m in Sources */,
+				DEF69BB9119B5201009443E9 /* CSerializedJSONData.m in Sources */,
+				DEF69BBF119B5201009443E9 /* CDataScanner.m in Sources */,
+				DEF69C00119B52EF009443E9 /* TFProductList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA0D49311988A6E00C95B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA0D4BB11988BCA00C95B7C /* SyntaxTest.m in Sources */,
+				DE261ECA1199F22F000E055B /* TFProductTest.m in Sources */,
+				DE261ED51199FCF0000E055B /* TFProduct.m in Sources */,
+				DEF69BC0119B5201009443E9 /* NSCharacterSet_Extensions.m in Sources */,
+				DEF69BC1119B5201009443E9 /* CDataScanner_Extensions.m in Sources */,
+				DEF69BC2119B5201009443E9 /* NSDictionary_JSONExtensions.m in Sources */,
+				DEF69BC6119B5201009443E9 /* CJSONScanner.m in Sources */,
+				DEF69BC7119B5201009443E9 /* CJSONSerializer.m in Sources */,
+				DEF69BC8119B5201009443E9 /* CJSONDeserializer.m in Sources */,
+				DEF69BC9119B5201009443E9 /* CJSONDataSerializer.m in Sources */,
+				DEF69BCA119B5201009443E9 /* CSerializedJSONData.m in Sources */,
+				DEF69BD0119B5201009443E9 /* CDataScanner.m in Sources */,
+				DEF69BFF119B52EF009443E9 /* TFProductList.m in Sources */,
+				DEF69C02119B5340009443E9 /* TFProductListTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PeepNews_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PeepNews;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PeepNews_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = PeepNews;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		DEA0D49911988A6E00C95B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DEA0D49A11988A6E00C95B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "PeepNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PeepNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA0D49B11988A6E00C95B7C /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA0D49911988A6E00C95B7C /* Debug */,
+				DEA0D49A11988A6E00C95B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
